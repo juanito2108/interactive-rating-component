@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Interactive rating component</title>
+  </head>
+  <body>
+    <main class="principal-container" id="pricipalContainer">
+      <div class="principal-container-card">
+        <div class="principal-container-card-img">
+          <img src="./images/icon-star.svg" alt="" />
+        </div>
+        <article class="principal-container-card-text">
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </article>
+        <section class="calification-bar">
+          <div id="one">1</div>
+          <div id="two">2</div>
+          <div id="three">3</div>
+          <div id="four">4</div>
+          <div id="five">5</div>
+        </section>
+        <div class="submit-button" id="toggleButton">
+          <button>SUBMIT</button>
+        </div>
+      </div>
+    </main>
+    <main class="secondary-container" id="segundaCarta">
+      <div class="secondary-container-card">
+        <div class="secondary-container-card-img">
+          <img src="./images/illustration-thank-you.svg" alt="thanks" />
+        </div>
+        <article class="secondary-container-card-text">
+          <p class="selecter-number">
+            You selected <b class="contador" id="contador">0</b> out of 5
+          </p>
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don't hesitate to get in touch!
+          </p>
+        </article>
+      </div>
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>

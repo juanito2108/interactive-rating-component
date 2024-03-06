@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color:  hsl(216, 12%, 8%);
+}
+.principal-container,.secondary-container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+}
+.principal-container-card-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+button{
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+}
+.principal-container-card,.secondary-container-card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 370px;
+    border-radius: 25px;
+    justify-content: space-between;
+    padding: 30px;
+    background: linear-gradient(to top, hsl(216, 12%, 8%), hsl(213, 19%, 18%) );
+}
+
+h1{
+    color:white;
+    padding-bottom: 10px;
+}
+p{
+    color:   hsl(217, 12%, 63%);
+    font-weight: 300;
+    font-size: 14px;
+}
+.calification-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+.calification-bar div:hover{
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+}
+.calification-bar div{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+.submit-button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    
+    width: 300px;
+    height: 35px;
+    border-radius: 15px;
+    list-style: none;
+    border: 0;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color:  hsl(25, 97%, 53%);
+}
+.secondary-container{
+    display: none;
+}
+.secondary-container-card-text{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.secondary-container-card-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.selecter-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(213, 19%, 18%);
+    width: 180px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    color:  hsl(25, 89%, 64%);
+    
+}
+
+
+.oculto {
+    display: none;
+  }
+.carta-seleccionada{
+    background-color: hsl(217, 12%, 63%) ;
+    color: white;
+}
+.contador{
+    margin: 0 2px;
+    font-weight: 300;
+}
